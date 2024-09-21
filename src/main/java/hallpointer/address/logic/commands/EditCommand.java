@@ -21,11 +21,7 @@ import hallpointer.address.commons.util.ToStringBuilder;
 import hallpointer.address.logic.Messages;
 import hallpointer.address.logic.commands.exceptions.CommandException;
 import hallpointer.address.model.Model;
-import hallpointer.address.model.person.Address;
-import hallpointer.address.model.person.Email;
-import hallpointer.address.model.person.Name;
-import hallpointer.address.model.person.Person;
-import hallpointer.address.model.person.Phone;
+import hallpointer.address.model.person.*;
 import hallpointer.address.model.tag.Tag;
 
 /**
@@ -100,8 +96,9 @@ public class EditCommand extends Command {
         Email updatedEmail = editPersonDescriptor.getEmail().orElse(personToEdit.getEmail());
         Address updatedAddress = editPersonDescriptor.getAddress().orElse(personToEdit.getAddress());
         Set<Tag> updatedTags = editPersonDescriptor.getTags().orElse(personToEdit.getTags());
+        Remark updatedRemark = personToEdit.getRemark();
 
-        return new Person(updatedName, updatedPhone, updatedEmail, updatedAddress, updatedTags);
+        return new Person(updatedName, updatedPhone, updatedEmail, updatedAddress, updatedRemark, updatedTags);
     }
 
     @Override
