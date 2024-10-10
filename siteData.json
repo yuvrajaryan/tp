@@ -7,11 +7,11 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
-        "jane-doh": "Jane Doh",
-        "johnny-doh": "Johnny Doh",
-        "jean-doh": "Jean Doh",
-        "james-doh": "James Doh"
+        "qin-haichen": "Qin Haichen",
+        "yuvraj-aryan-singh": "Yuvraj Aryan Singh",
+        "daniel-lai": "Daniel Lai",
+        "keith-ong": "Keith Ong",
+        "tag-han": "Tag Han"
       },
       "headingKeywords": {}
     },
@@ -38,7 +38,6 @@
     },
     {
       "src": "DeveloperGuide.md",
-      "title": "Developer Guide",
       "headings": {
         "hallpointer-developer-guide": "HallPointer Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -129,15 +128,65 @@
     },
     {
       "src": "index.md",
-      "title": "",
+      "title": "HallPointer",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "hallpointer": "HallPointer",
+        "key-features": "Key Features",
+        "getting-started": "Getting Started",
+        "acknowledgements": "Acknowledgements"
       },
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
+      "src": "team/keithxun.md",
+      "headings": {
+        "keith-ong": "Keith Ong",
+        "education": "Education",
+        "achievements": "Achievements",
+        "work-experience": "Work Experience",
+        "process-automation-intern": "Process Automation Intern",
+        "software-engineer-swe-project-sabai": "Software Engineer (SWE), Project Sabai",
+        "research-intern": "Research Intern",
+        "publications-and-presentations": "Publications and Presentations"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/qinhaichen12.md",
+      "headings": {
+        "qin-haichen": "Qin Haichen",
+        "education": "Education",
+        "national-university-of-singapore": "National University of Singapore",
+        "nus-high-school-of-mathematics-and-science": "NUS High School of Mathematics and Science",
+        "projects": "Projects",
+        "technical-skills": "Technical Skills",
+        "work-experience": "Work Experience",
+        "part-time-tutor-self-employed": "Part Time Tutor (Self-employed)",
+        "head-depot-clerk-singapore-armed-forces": "Head Depot Clerk (Singapore Armed Forces)",
+        "research-intern-cryowerx": "Research Intern (Cryowerx)",
+        "community-involvement": "Community Involvement",
+        "trained-repair-coach-repair-kopitiam-singapore": "Trained Repair Coach (Repair Kopitiam Singapore)"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/starchypotatocode.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/taggyhan.md",
+      "headings": {
+        "education": "Education",
+        "work-experience": "Work Experience",
+        "clubs-and-amp-societies": "Clubs &amp; Societies",
+        "honours-certifications": "Honours/Certifications"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/yuvrajaryan.md",
+      "title": "Yuvraj Aryan Singh's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
