@@ -23,6 +23,7 @@ import hallpointer.address.model.ReadOnlyAddressBook;
 import hallpointer.address.model.ReadOnlyUserPrefs;
 import hallpointer.address.model.member.Member;
 import hallpointer.address.model.session.Session;
+import hallpointer.address.model.session.SessionName;
 import hallpointer.address.testutil.MemberBuilder;
 import javafx.collections.ObservableList;
 
@@ -152,6 +153,30 @@ public class AddMemberCommandTest {
             throw new AssertionError("This method should not be called.");
         }
 
+        /**
+         * Deletes the given session from the given member.
+         * The member must exist in the address book and the
+         * session must exist in the member.
+         *
+         * @param target
+         * @param sessionName
+         */
+        @Override
+        public void deleteSession(Member target, SessionName sessionName) {
+            throw new AssertionError("This method should not be called.");
+        }
+
+        @Override
+        public void deleteSession(Session sessionToDelete) {
+            throw new AssertionError("This method should not be called.");
+        }
+
+        @Override
+        public boolean hasSession(Session session) {
+            throw new AssertionError("This method should not be called.");
+        }
+
+
         @Override
         public void setMember(Member target, Member editedMember) {
             throw new AssertionError("This method should not be called.");
@@ -172,15 +197,6 @@ public class AddMemberCommandTest {
 
         @Override
         public void updateFilteredMemberList(Predicate<Member> predicate) {
-            throw new AssertionError("This method should not be called.");
-        }
-        @Override
-        public boolean hasSession(Session session) {
-            throw new AssertionError("This method should not be called.");
-        }
-
-        @Override
-        public void deleteSession(Session sessionToDelete) {
             throw new AssertionError("This method should not be called.");
         }
 
