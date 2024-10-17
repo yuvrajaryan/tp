@@ -118,6 +118,16 @@ public class ModelManager implements Model {
         target.removeSession(sessionName);
     }
 
+    /**
+     * Removes the given session {@code target} in the list.
+     *
+     * @param target session to be deleted
+     */
+    @Override
+    public void deleteSession(Session target) {
+        addressBook.deleteSession(target);
+    }
+
     @Override
     public void addMember(Member member) {
         addressBook.addMember(member);
@@ -171,15 +181,6 @@ public class ModelManager implements Model {
         addressBook.addSession(session);
     }
 
-    /**
-     * Removes the given session {@code target} in the list.
-     *
-     * @param target session to be deleted
-     */
-    @Override
-    public void deleteSession(Session target) {
-        addressBook.deleteSession(target);
-    }
 
     /**
      * Replaces the given session {@code target} with {@code editedSession}.

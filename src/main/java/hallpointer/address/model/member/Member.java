@@ -157,7 +157,7 @@ public class Member {
         }
         Session target = this.sessions.stream()
                 .filter(object -> object.getSessionName().toString().equals(session.toString()))
-                .findFirst()   // get the first match, wrapped in Optional
+                .findFirst()
                 .orElse(null); // return null if no match is found
         if (target == null) {
             throw new IllegalArgumentException("Session not found: " + session);

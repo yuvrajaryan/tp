@@ -77,6 +77,10 @@ public interface Model {
      */
     void deleteSession(Member target, SessionName sessionName);
 
+    void deleteSession(Session sessionToDelete);
+
+    List<Session> getSessionList();
+
     /**
      * Adds the given member.
      * {@code member} must not already exist in the address book.
@@ -111,9 +115,9 @@ public interface Model {
      */
     void addSession(Session session);
 
-    void deleteSession(Session sessionToDelete);
+
 
     void setSession(Session target, Session editedSession);
 
-    List<Session> getSessionList();
+
 }
