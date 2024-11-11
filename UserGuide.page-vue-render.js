@@ -230,7 +230,7 @@ with(this){return _c('h3',{attrs:{"id":"saving-the-data"}},[_v("Saving the data"
 with(this){return _c('h3',{attrs:{"id":"editing-the-data-file"}},[_v("Editing the data file"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#editing-the-data-file","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("HallPointer data is saved automatically as a JSON file at "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("[JAR file location]/data/hallpointer.json")]),_v(".")])}
+with(this){return _c('p',[_v("HallPointer data is saved automatically as a JSON file at "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("[JAR file location]/data/hallpointer.json")]),_v(". Advanced users are welcome to update data directly by editing that data file.")])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"faq"}},[_v("FAQ"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#faq","onclick":"event.stopPropagation()"}})])}
@@ -272,6 +272,6 @@ with(this){return _c('h3',{attrs:{"id":"points"}},[_v("Points"),_c('a',{staticCl
 with(this){return _c('h3',{attrs:{"id":"telegram-handle"}},[_v("Telegram Handle"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#telegram-handle","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 23:00:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 23:03:45 GMT+8]")])])])}
 }];
   
