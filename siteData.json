@@ -60,7 +60,7 @@
         "managing-sessions": "Managing Sessions",
         "saving-data": "Saving Data",
         "other-features": "Other Features",
-        "appendix-instructions-for-manual-testing-2": "Appendix: Instructions for manual testing"
+        "planned-enhancements": "Planned Enhancements"
       },
       "headingKeywords": {}
     },
@@ -107,14 +107,13 @@
         "viewing-help-help": "Viewing help : help",
         "adding-a-member": "Adding a member:",
         "listing-all-members": "Listing all members:",
-        "-2": "",
         "updating-a-member": "Updating a member:",
-        "-3": "",
+        "-2": "",
         "locating-members-by-name": "Locating members by name:",
         "deleting-a-member": "Deleting a member:",
-        "-4": "",
+        "-3": "",
         "adding-a-session": "Adding a Session:",
-        "-5": "",
+        "-4": "",
         "locating-members-with-associated-sessions-by-name": "Locating Members with Associated Sessions by Name:",
         "deleting-a-session": "Deleting a Session:",
         "clearing-all-entries": "Clearing all entries:",
@@ -123,14 +122,7 @@
         "editing-the-data-file": "Editing the data file",
         "faq": "FAQ",
         "known-issues": "Known Issues",
-        "glossary": "Glossary",
-        "graphical-user-interface-gui": "Graphical User Interface (GUI)",
-        "command-terminal": "Command Terminal",
-        "tag": "Tag",
-        "session": "Session",
-        "json-file": "JSON File",
-        "points": "Points",
-        "telegram-handle": "Telegram Handle"
+        "glossary": "Glossary"
       },
       "headingKeywords": {}
     },
