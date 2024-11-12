@@ -582,7 +582,7 @@ Team Size: 5
    This enhancement will improve user experience by making session searches more flexible and efficient.
 
 3. **Flexible Member Search by Additional Fields**  
-   Currently, searching for members by room or other important fields, like the Telegram handle, is not supported.
+   Currently, searching for members by room or other important fields, like their Tags, is not supported.
 
    **Example Requirement**:
 
